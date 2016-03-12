@@ -1,3 +1,15 @@
+%Written By:    Kevin Childs
+%Course:        ELEN249
+%Quarter:       Winter 2016
+%Professors:    T. Ogunfunmi & K. Gunnam
+%Comments:      Created using the paper.  I initially had a lot of problems
+%               with this, since i was not familiar with the "fi" set of
+%               commands and the bit stream was not being represented as I
+%               would have like, but I finally worked it out and was able
+%               to get the results I wanted.  If I had more time I would
+%               optimize this function (which doesn't seem all that hard,
+%               but when you are fighting against the clock, it is very
+%               difficult).
 function y = taus()
 %initializing seeds
 s0 = (2^33)*rand(1)-2^32;

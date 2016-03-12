@@ -1,3 +1,8 @@
+%Written By:    Kevin Childs
+%Course:        ELEN249
+%Quarter:       Winter 2016
+%Professors:    T. Ogunfunmi & K. Gunnam
+%Comments:      Found from the Matlab documentation site online
 function [x, y, z] = cordic_rotation_kernel(x, y, z, inpLUT, n)
 % Perform CORDIC rotation kernel algorithm for N iterations.
 xtmp = x;

@@ -1,4 +1,8 @@
-function [p,v] = sixteenBitLZD(a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15)
+%Written By:    Kevin Childs
+%Course:        ELEN249
+%Quarter:       Winter 2016
+%Professors:    T. Ogunfunmi & K. Gunnam
+%Comments:      Created using the paper, but did not work correctly.function [p,v] = sixteenBitLZD(a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15)
 [p1,v1] = eightBitLZD(a0,a1,a2,a3,a4,a5,a6,a7);
 [p2,v2] = eightBitLZD(a8,a9,a10,a11,a12,a13,a14,a15);
 if (v2)

@@ -1,3 +1,8 @@
+%Written By:    Kevin Childs
+%Course:        ELEN249
+%Quarter:       Winter 2016
+%Professors:    T. Ogunfunmi & K. Gunnam
+%Comments:      Found from the Matlab documentation site online.
 function cordic_Sqrt()
 k = 4; % Used for the repeated (3*k + 1) iteration steps
 x=100;

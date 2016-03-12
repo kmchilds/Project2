@@ -1,3 +1,8 @@
+%Written By:    Kevin Childs
+%Course:        ELEN249
+%Quarter:       Winter 2016
+%Professors:    T. Ogunfunmi & K. Gunnam
+%Comments:      Found on the Matlab documentation site online.
 function [x_out, y_out, z_out] = cordic_SinCos(theta,sumWL,sumFrac,niters)
 %sumWL  = 16; % CORDIC sum word length
 thNorm = -1.0:(2^-8):1.0; % Normalized [-1.0, 1.0] angle values
