@@ -13,7 +13,7 @@
 %               defeat with System Generator.
 i=0;
 results = [];
-while(i<500) %500 iterations used to give sufficient data to get a decent plot.
+while(i<1000) %500 iterations used to give sufficient data to get a decent plot.
     a = taus();
     b = taus();
     [x0,x1] = AWGN(0,1,a,b);
