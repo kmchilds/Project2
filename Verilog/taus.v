@@ -10,7 +10,7 @@
 //////////////////////////////////////////////////////////
 
 
-module tausworthe_urng(clk, ce, s0, s1, s2, tausrand);
+module taus(clk, ce, s0, s1, s2, tausrand);
 input clk, ce;
 input [31:0] s0, s1, s2;
 output reg [31:0] tausrand;
@@ -28,7 +28,7 @@ assign s2 = (((s2 & 32'hFFFFFFF0) << 17) ^ b2);
 
 always @(posedge clk)
 begin
-tausrand<=s0 ^ s1 ^ s2;;
+tausrand<=s0 ^ s1 ^ s2;
 end
 
 endmodule
