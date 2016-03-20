@@ -1,3 +1,9 @@
+//Written By:    Kevin Childs
+//Course:        ELEN249
+//Quarter:       Winter 2016
+//Professors:    T. Ogunfunmi & K. Gunnam
+//Comments:      This is a Verilog implementation of the AWGN using nordic templates from Vivado.
+
 module awgn2 (clk, reset, urng_seed1, urng_seed2, awgn_out);
 
 input clk,reset;

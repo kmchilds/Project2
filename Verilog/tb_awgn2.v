@@ -1,3 +1,9 @@
+//Written By:    Kevin Childs
+//Course:        ELEN249
+//Quarter:       Winter 2016
+//Professors:    T. Ogunfunmi & K. Gunnam
+//Comments:      This is the test bench for AWGN2.
+
 module tb_awgn2 (reset, s0, s1, s2, s3, s4, s5);
 `include "taus.v" 
 `include "awgn2.v" 
